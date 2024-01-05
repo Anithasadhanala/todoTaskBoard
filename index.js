@@ -17,10 +17,10 @@ app.use(bodyParser.urlencoded({extended: true}))
 //Database connection
 const db = phpmyadmin.createPool({
     host: "sql12.freesqldatabase.com",
-    user: "sql12673622",
+    user: "sql12674924",
     port: "3306",
-    password: "4YtUInQKuv",
-    database: "sql12673622",
+    password: "h2XLswcYZQ",
+    database: "sql12674924",
     insecureAuth : true
 })
 
