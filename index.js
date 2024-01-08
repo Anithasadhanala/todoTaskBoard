@@ -21,10 +21,6 @@ const db = phpmyadmin.createPool({
     port: "3306",
     password: "Haripajjuri1234",
     database: "AnithaTodoDB"
-<<<<<<< HEAD
-=======
-   
->>>>>>> 37f0d1bc7fe260d36781849a75399e1513b8ae2e
 })
 
 
