@@ -16,11 +16,11 @@ app.use(bodyParser.urlencoded({extended: true}))
 
 //Database connection
 const db = phpmyadmin.createPool({
-    host: "sql12.freesqldatabase.com",
-    user: "sql12674924",
+    host: "shttp://database-1.c9y8uig2qfmx.us-east-1.rds.amazonaws.com/",
+    user: "admin",
     port: "3306",
-    password: "h2XLswcYZQ",
-    database: "sql12674924",
+    password: "Haripajjuri1234",
+    database: "AnithaTodoDB",
     insecureAuth : true
 })
 
