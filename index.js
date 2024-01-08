@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({extended: true}))
 
 //Database connection
 const db = phpmyadmin.createPool({
-    host: "shttp://database-1.c9y8uig2qfmx.us-east-1.rds.amazonaws.com/",
+    host: "http://database-1.c9y8uig2qfmx.us-east-1.rds.amazonaws.com/",
     user: "admin",
     port: "3306",
     password: "Haripajjuri1234",
