@@ -20,8 +20,8 @@ const db = phpmyadmin.createPool({
     user: "admin",
     port: "3306",
     password: "Haripajjuri1234",
-    database: "AnithaTodoDB",
-    insecureAuth : true
+    database: "AnithaTodoDB"
+   
 })
 
 
