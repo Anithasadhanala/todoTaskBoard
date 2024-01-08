@@ -16,14 +16,12 @@ app.use(bodyParser.urlencoded({extended: true}))
 
 //Database connection
 const db = phpmyadmin.createPool({
-    host: "sql12.freesqldatabase.com",
-    user: "sql12673622",
+    host: "database-1.c9y8uig2qfmx.us-east-1.rds.amazonaws.com",
+    user: "admin",
     port: "3306",
-    password: "4YtUInQKuv",
-    database: "sql12673622",
-    insecureAuth : true
+    password: "Haripajjuri1234",
+    database: "AnithaTodoDB"
 })
-
 
 
 // GET API for all projects
@@ -60,6 +58,7 @@ app.post('/project-add',function(request,response){
     const {projectName} = request.body;
     const q = `insert into projects values("${uuid}","${projectName}")`;
     db.query(q,(err,res)=>{
+      console.log(res)
         response.send(res)
     })
 });
